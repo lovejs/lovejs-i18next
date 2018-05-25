@@ -1,3 +1,1 @@
-# Love Js - Sequelize plugin
-
-Love Js - Sequelize plugin
+# Love Js - i18next plugin

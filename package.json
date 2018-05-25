@@ -1,13 +1,19 @@
 {
     "name": "@lovejs/i18next",
+    "author": "Vincent <vincent@fullstack.pro>",
     "version": "0.0.1",
-    "description": "",
+    "description": "Lovejs i18next",
     "main": "src/index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "keywords": ["lovejs", "i18next", "lovejs plugin"],
+    "license": "MIT",
+    "homepage": "http://lovejs.io/",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lovejs/lovejs-i18next.git"
     },
-    "author": "",
-    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lovejs/lovejs-i18next/issues"
+    },
     "peerDependencies": {
         "@lovejs/components": "^0.0.1",
         "@lovejs/framework": "^0.0.1"
