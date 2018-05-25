@@ -1,0 +1,30 @@
+services:
+    i18next:
+        module: !plugin_dir i18next
+        args:
+            - !parameter i18next.configuration
+            - !parameter i18next.plugins
+
+    i18next.middleware:
+        module: !plugin_dir middlewares/i18nextMiddleware
+        tags:   { tag: http.middleware, name: i18next }
+        args:
+            - !service i18next
+
+    i18next.middleware.resources:
+        module: !plugin_dir middlewares/i18nextResourcesMiddleware
+        tags:   { tag: http.middleware, name: i18next_resources }
+        args:
+            - !service i18next
+
+    i18next.middleware.missing:
+        module: !plugin_dir middlewares/i18nextMissingMiddleware
+        tags:   { tag: http.middleware, name: i18next_missing }
+        args:
+            - !service i18next
+
+    i18next.route.loader:
+        module: !plugin_dir routing/i18nextLoader
+        tags:   http.route.loader
+        args:
+            - !service i18next
