@@ -4,7 +4,11 @@
     "version": "0.0.1",
     "description": "Lovejs i18next",
     "main": "src/index.js",
-    "keywords": ["lovejs", "i18next", "lovejs plugin"],
+    "keywords": [
+        "lovejs",
+        "i18next",
+        "lovejs plugin"
+    ],
     "license": "MIT",
     "homepage": "http://lovejs.io/",
     "repository": {
@@ -19,6 +23,8 @@
         "@lovejs/framework": "^0.0.1"
     },
     "dependencies": {
-        "koa-i18next": "^1.0.1"
+        "i18next": "^11.3.2",
+        "i18next-node-fs-backend": "^1.0.0",
+        "koa-i18next": "^1.1.0"
     }
 }
