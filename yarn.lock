@@ -26,16 +26,16 @@ esprima@^2.6.0:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
 
-i18next-node-fs-backend@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/i18next-node-fs-backend/-/i18next-node-fs-backend-1.0.0.tgz#f5a625a3b287c1d098c7171b7dd376bb07299b59"
+i18next-node-fs-backend@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/i18next-node-fs-backend/-/i18next-node-fs-backend-1.1.0.tgz#ab5de651c311c95bbf54cf9177d34ecbf9cd6ad9"
   dependencies:
     js-yaml "3.5.4"
     json5 "0.5.0"
 
-i18next@^11.3.2:
-  version "11.3.2"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-11.3.2.tgz#4a1a7bb14383ba6aed4abca139b03681fc96e023"
+i18next@^11.3.5:
+  version "11.3.5"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-11.3.5.tgz#1394f876246c1171125888fad50011d787b618b4"
 
 js-yaml@3.5.4:
   version "3.5.4"
@@ -61,9 +61,9 @@ koa-convert@^1.2.0:
     co "^4.6.0"
     koa-compose "^3.0.0"
 
-koa-i18next@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/koa-i18next/-/koa-i18next-1.1.0.tgz#a923bcaa85b9d09793ae30f9f5ec59df37b8093d"
+koa-i18next@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/koa-i18next/-/koa-i18next-1.1.1.tgz#02f0ea33550835e28116a09d63c504421dc2fe4e"
   dependencies:
     debug "^2.2.0"
     koa-convert "^1.2.0"
